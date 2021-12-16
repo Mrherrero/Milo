@@ -1,0 +1,18 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+.contenedor-imagen img {
+    float: left;
+    margin: 15px;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -ms-transition: margin 0.5s ease-out;
+    transition: margin 0.5s ease-out;
+}
+
+.contenedor-imagen img:hover {
+    margin-top: 2px;
+}
+
